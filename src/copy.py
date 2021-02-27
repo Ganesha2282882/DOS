@@ -5,7 +5,7 @@ if len(sys.argv) == 3:
   outf = sys.argv[2]
 
 else:
-  print("ERROR: Invalid number of arguments")
+  print("ERROR: Invalid number of arguments.")
   sys.exit(1)
 
 fin = open(inf, "rb")
