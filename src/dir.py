@@ -1,2 +1,9 @@
 import os
-print("\n".join(os.listdir(".")))
+import sys
+if len(sys.argv) != 1:
+  arg = sys.argv[1]
+
+else:
+  arg = "."
+
+print("\n".join(os.listdir(arg)))
