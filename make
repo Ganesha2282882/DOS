@@ -9,4 +9,6 @@ for i in *.py; do
 done
 cd commands
 tar -czf ../commands.tar.gz .
-cd ../..
+cd ..
+rm -rf commands
+cd ..
