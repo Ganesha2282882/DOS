@@ -7,4 +7,4 @@ else:
   sys.exit(1)
 
 with open(arg, "rt") as f:
-  print(f.read)
+  print(f.read())
