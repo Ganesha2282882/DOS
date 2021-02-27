@@ -8,7 +8,7 @@ for i in *.py; do
   rm -rf dist
 done
 cd commands
-tar -czf ../commands.tar.gz .
+tar -czf ../../commands.tar.gz .
 cd ..
 rm -rf commands
 cd ..
