@@ -1,5 +1,5 @@
 # DOS
-MS-DOS subsystem on Linux/Windows.
+The "old" coreutils.
 
 ## Compile
 ```bash
